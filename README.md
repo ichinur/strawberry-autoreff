@@ -2,11 +2,11 @@
 New Waitlist : Strawberry Ai
 
 ➡️ Register :
-in [Section 'Strawberry'](#strawberry) 
 
-## Strawberry <a id='strawberry'>https://strawberry.ai/rank?ref_id=GNYHMVEDA</a>
+[https://strawberry.ai/](https://strawberry.ai/rank?ref_id=GNYHMVEDA)
+
 -- Submit Email
--- Verify Email 
+-- Verify Email (optional)
 -- Done
 
 
