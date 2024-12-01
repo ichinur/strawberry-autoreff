@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@cemalgnlts/mailjs": "^3.0.1",
+    "axios": "^1.7.8",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2"
+  }
+}
