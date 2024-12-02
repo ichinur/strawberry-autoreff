@@ -1,4 +1,4 @@
-##STRAWBERRY.AI
+## STRAWBERRY.AI
 New Waitlist : Strawberry Ai
 
 ➡️ Register :
