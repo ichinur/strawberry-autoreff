@@ -110,9 +110,9 @@ wait_for_rpc() {
 # Mendapatkan session keys
 get_session_keys() {
     echo -e "${YELLOW}Mendapatkan Session Keys...${NC}"
-    SESSION_KEYS=$(curl --max-time 10 --silent --retry 5 --retry-delay 5 --url http://localhost:9944 -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"author_rotateKeys","params":[],"id":1}' | jq -r .result)
+    SESSION_KEYS=$(curl --max-time 10 --silent --retry 5 --retry-delay 5 --url http://localhost:30333 -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","method":"author_rotateKeys","params":[],"id":1}' | jq -r .result)
     if [[ -z "$SESSION_KEYS" ]]; then
-        echo -e "${YELLOW}Gagal mendapatkan Session Keys. Pastikan port 9944 terbuka.${NC}"
+        echo -e "${YELLOW}Gagal mendapatkan Session Keys. Pastikan port 30333 terbuka.${NC}"
     else
         echo -e "${GREEN}Session Keys berhasil didapatkan: ${SESSION_KEYS}${NC}"
         echo "$SESSION_KEYS" > session_keys.txt
