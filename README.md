@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/a134cbed-f29f-4625-adfc-0ffd9aacc5eb)## STRAWBERRY.AI
+# STRAWBERRY.AI
 New Waitlist : Strawberry Ai
 
 ➡️ Register :
